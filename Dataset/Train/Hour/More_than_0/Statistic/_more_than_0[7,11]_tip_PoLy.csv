@@ -1,0 +1,2 @@
+,Model,Feature details,RMSE,R^2 train,R^2 test,4 fold - mean,4 fold - std,5 fold - mean,5 fold - std,note,Deploy
+0,Polynomial Linear Regression,"['total_amount', 'fare_amount', 'trip_distance']",0.5126121628243676,0.7370722929761482,0.7342552733578366,0.5960417260385229,0.3106163121768015,0.6123455558488722,0.31335488053254756,"test_size = 0.2, Degree = 3, num feature = 3","LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)"
